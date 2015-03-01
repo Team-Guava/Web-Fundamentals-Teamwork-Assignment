@@ -42,13 +42,16 @@
 	<link rel="shortcut icon" href="favicon.ico" />
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
 
     <!-- Optional theme -->
-    <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.css">
 
 	<!-- concatenate and minify for production -->
 	<link rel="stylesheet" href="assets/css/style.css" />
+	
+	<!--Responsive slider css -->
+	<link rel="stylesheet" href="assets/css/responsive-slider.css">
 
 	<!-- Lea Verou's Prefix Free, lets you use un-prefixed properties in your CSS files -->
 	<script src="assets/js/libs/prefixfree.min.js"></script>
@@ -72,11 +75,21 @@
 	<meta name="twitter:title" content="">
 	<meta name="twitter:description" content="">
 	<meta name="twitter:url" content="">
+	<!-- Slider meta tags -->
+   	<meta name="distributor" content="Global" />
+    <meta itemprop="contentRating" content="General" />
+    <meta name="robots" content="All" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="description" content="The source of truly unique and awesome jquery plugins." />
+    <meta name="keywords" content="slider, carousel, responsive, swipe, one to one movement, touch devices, jquery, plugin, bootstrap compatible, html5, css3" />
+    <meta name="author" content="w3widgets.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Facebook (and some others) use the Open Graph protocol: see http://ogp.me/ for details -->
 	<meta property="og:title" content="" />
 	<meta property="og:description" content="" />
 	<meta property="og:url" content="" />
 	<meta property="og:image" content="" />
+
 
 </head>
 
@@ -119,6 +132,71 @@
     </nav>
 
 	</header>
+
+	  <body>
+    <div class="container">
+      <!-- Responsive slider - START -->
+    	<div class="responsive-slider" data-spy="responsive-slider" data-autoplay="true">
+        <div class="slides" data-group="slides">
+      		<ul>
+
+  	    		<li>
+              <div class="slide-body" data-group="slide">
+                <img src="carousel-images/Nakov02.jpg">
+                <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                  <h2>Светлин НАКОВ</h2>
+                  <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300">Църкам редовно пико и кока - ФАКТ!</div>
+                </div>
+                <div class="caption img-html5" data-animate="slideAppearLeftToRight" data-delay="200">
+                  <img src="carousel-images/cocaine.png">
+                </div>
+                <div class="caption img-css3" data-animate="slideAppearLeftToRight">
+                  <img src="carousel-images/fakepiko.png">
+                </div>
+              </div>
+  	    		</li>
+  	    		
+  	    		<li>
+              <div class="slide-body" data-group="slide">
+                <img src="">
+                <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                  <h2>Twitter Boostrap</h2>
+                  <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300">Compatible!</div>
+                </div>
+                <div class="caption img-bootstrap" data-animate="slideAppearDownToUp" data-delay="200">
+                  <img src="">
+                </div>
+                <div class="caption img-twitter" data-animate="slideAppearUpToDown">
+                  <img src="">
+                </div>
+              </div>
+  	    		</li>
+  	    		
+  	    		<li>
+              <div class="slide-body" data-group="slide">
+                <img src="">
+                <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                  <h2>Custom animations</h2>
+                  <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300">For any caption you use!</div>
+                </div>
+                <div class="caption img-jquery" data-animate="slideAppearDownToUp" data-delay="200">
+                  <img src="">
+                </div>
+              </div>
+  	    		</li>
+  	    	</ul>
+        </div>
+        <a class="slider-control left" href="#" data-jump="prev">Prev</a>
+        <a class="slider-control right" href="#" data-jump="next">Next</a>
+        <div class="pages">
+          <a class="page" href="#" data-jump-to="1">1</a>
+          <a class="page" href="#" data-jump-to="2">2</a>
+          <a class="page" href="#" data-jump-to="3">3</a>
+        </div>
+    	</div>
+    	    <script src="assets/js/jquery.js"></script>
+    		<script src="assets/js/jquery.event.move.js"></script>
+    		<script src="assets/js/responsive-slider.js"></script>
 
 	<article>
 
