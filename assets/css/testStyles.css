@@ -1,0 +1,104 @@
+/*TEST*/
+/*
+	NOTE ALL STYLES WILL BE MOVED TO THE RIGHT FILE WHICH MUST CONTAINS THEM< THIS ONE IS JUST FOR DEBUG,
+	THAT'S WHY MOST OF THE STYLES REPEAT THE ORIGINALS WITH !IMPORTANT
+*/
+/*BACKGROUD*/
+ body  {
+	background: url(../../carousel-images/bodybg.jpg) #FFF;
+ } 
+ 
+ /*CONTAINERS BACKGROUND AND SIDES BORDER*/
+ .container {
+	background-color: #EEE;
+	border-left: solid 0.2rem #DDD;
+	border-right: solid 0.2rem #DDD;
+ }
+ 
+ /*MAIN CONTAINER SHADOW SIDES*/
+ body > .container {
+	box-shadow: 0 0 2rem #000;
+ }
+ 
+ /*DISABLED*/
+ .jumbotron .container {
+	border: none;
+ }
+ 
+ /*DISABLED NAVIGATION TOP FIXED VISABILITY*/
+ .navbar-fixed-top{
+	background-image: none;
+	background-color: transparent;
+	border:none;
+ }
+ 
+ /*CHANGED NAVIGATION LINKS COLOR AND SIZE*/
+ .navbar-nav  a {
+	color: #666!important;
+	font-size: 1.8rem!important;
+ }
+ /*CHANGED NAVIGATION LINKS COLOR ON HOVER*/
+ .navbar-nav a:hover  {
+	color: #000!important;
+ }
+ /*CHANGED MAIN NAVIGATION LINK WITH CLASS ACTIVE*/
+ .active  a {
+	margin-bottom: 1rem!important;
+	background-image:none!important;
+	background-color: #AAA !important;
+	border-bottom-left-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+	color: #FFF!important;
+ }
+ 
+ /*SLIDER TWEAKS*/
+ .slider-control  {
+	background-color: #EEE!important;
+	color: #666!important;
+ }
+ /*FIXED DECORATION UNDERLINE AFTER BUTTON ACTIVE*/
+.responsive-slider .slider-control {
+  position: absolute;
+  font-size: 3.4rem;
+  color: #DDD;
+  top: 40%;
+  background-color: #555;
+  padding: 1rem;
+  text-decoration: none;
+}
+.responsive-slider .slider-control.left {
+  left: 0;
+  padding-left: 0;
+  -webkit-border-radius: 0 0.6rem 0.6rem 0;
+  border-radius: 0 1rem 1rem 0;
+}
+
+/*ADDED TRANSITION*/
+.responsive-slider .slider-control.left:hover {
+  padding-left: 1rem;
+  color: #FFF;
+  -webkit-transition: padding-left 0.5s;
+    -moz-transition: padding-left 0.5s;
+    -ms-transition: padding-left 0.5s;
+    -o-transition: padding-left 0.5s;
+    transition: padding-left 0.5s;
+}
+
+.responsive-slider .slider-control.right {
+  right: 0;
+  padding-right: 0;
+  -webkit-border-radius: 0.6rem 0 0 0.6rem;
+  border-radius: 0.6rem 0 0 0.6rem;
+}
+
+/*ADDED TRANSITION*/
+.responsive-slider .slider-control.right:hover {
+  padding-right: 1rem;
+  color: #FFF;
+  -webkit-transition: padding-right 0.5s;
+  -moz-transition: padding-right 0.5s;
+  -ms-transition: padding-right 0.5s;
+  -o-transition: padding-right 0.5s;
+  transition: padding-right 0.5s;
+}
+/* END OF TEST*/
