@@ -1140,7 +1140,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px dashed #3A4544;
 }
 .sr-only {
   position: absolute;
@@ -1276,9 +1276,7 @@ h6,
 .h6 {
   font-size: 12px;
 }
-p {
-  margin: 0 0 10px;
-}
+
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
