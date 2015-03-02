@@ -83,7 +83,6 @@
     <meta name="description" content="The source of truly unique and awesome jquery plugins." />
     <meta name="keywords" content="slider, carousel, responsive, swipe, one to one movement, touch devices, jquery, plugin, bootstrap compatible, html5, css3" />
     <meta name="author" content="w3widgets.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Facebook (and some others) use the Open Graph protocol: see http://ogp.me/ for details -->
 	<meta property="og:title" content="" />
 	<meta property="og:description" content="" />
@@ -94,9 +93,8 @@
 </head>
 
 <body>
-
+<div class="container">
 	<header>
-
     <!-- Fixed navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
@@ -130,73 +128,51 @@
             </div><!--/.nav-collapse -->
         </div>
     </nav>
-
 	</header>
 
-	  <body>
-    <div class="container">
       <!-- Responsive slider - START -->
-    	<div class="responsive-slider" data-spy="responsive-slider" data-autoplay="true">
+    	<div class="responsive-slider" data-spy="responsive-slider" data-autoplay="true" data-interval="5000" data-transitiontime="300">
         <div class="slides" data-group="slides">
       		<ul>
-
-  	    		<li>
-              <div class="slide-body" data-group="slide">
-                <img src="carousel-images/Nakov02.jpg">
-                <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
-                  <h2>Светлин НАКОВ</h2>
-                  <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300">Църкам редовно пико и кока - ФАКТ!</div>
+            <li>
+                <div class="slide-body" data-group="slide">
+                    <img src="carousel-images/Nakov02.jpg">
+                    <div class="caption" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                        <h2><i class="icon-gift"></i> Responsive slider</h2>
+                        <div class="caption" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300">With one to one swipe movement!</div>
+                    </div>
                 </div>
-                <div class="caption img-html5" data-animate="slideAppearLeftToRight" data-delay="200">
-                  <img src="carousel-images/cocaine.png">
+            </li>
+            <li>
+                <div class="slide-body" data-group="slide">
+                    <img src="carousel-images/Nakov02.jpg">
+                    <div class="caption" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                        <h2>Светлин НАКОВ</h2>
+                        <div class="caption" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300">Църкам редовно пико и кока - ФАКТ!</div>
+                    </div>
                 </div>
-                <div class="caption img-css3" data-animate="slideAppearLeftToRight">
-                  <img src="carousel-images/fakepiko.png">
+            </li>
+            <li>
+                <div class="slide-body" data-group="slide">
+                    <img src="carousel-images/Nakov02.jpg">
+                    <div class="caption" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                        <h2>Светлин НАКОВ</h2>
+                        <div class="caption" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300">Църкам редовно пико и кока - ФАКТ!</div>
+                    </div>
                 </div>
-              </div>
-  	    		</li>
-  	    		
-  	    		<li>
-              <div class="slide-body" data-group="slide">
-                <img src="">
-                <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
-                  <h2>Twitter Boostrap</h2>
-                  <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300">Compatible!</div>
-                </div>
-                <div class="caption img-bootstrap" data-animate="slideAppearDownToUp" data-delay="200">
-                  <img src="">
-                </div>
-                <div class="caption img-twitter" data-animate="slideAppearUpToDown">
-                  <img src="">
-                </div>
-              </div>
-  	    		</li>
-  	    		
-  	    		<li>
-              <div class="slide-body" data-group="slide">
-                <img src="">
-                <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
-                  <h2>Custom animations</h2>
-                  <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300">For any caption you use!</div>
-                </div>
-                <div class="caption img-jquery" data-animate="slideAppearDownToUp" data-delay="200">
-                  <img src="">
-                </div>
-              </div>
-  	    		</li>
-  	    	</ul>
+            </li>
+            </ul>
         </div>
-        <a class="slider-control left" href="#" data-jump="prev">Prev</a>
-        <a class="slider-control right" href="#" data-jump="next">Next</a>
+
+        <a class="slider-control left" href="#" data-jump="prev"><i class="icon-angle-left">Prev</i></a>
+        <a class="slider-control right" href="#" data-jump="next"><i class="icon-angle-right">Next</i></a>
         <div class="pages">
           <a class="page" href="#" data-jump-to="1">1</a>
           <a class="page" href="#" data-jump-to="2">2</a>
           <a class="page" href="#" data-jump-to="3">3</a>
         </div>
     	</div>
-    	    <script src="assets/js/jquery.js"></script>
-    		<script src="assets/js/jquery.event.move.js"></script>
-    		<script src="assets/js/responsive-slider.js"></script>
+    <!-- RESPONSIVE SLIDER - END -->
 
 	<article>
 
@@ -211,7 +187,6 @@
 
 	</article>
 
-    <div class="container">
         <!-- Example row of columns -->
         <div class="row">
             <div class="col-md-4">
@@ -247,6 +222,9 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script>window.jQuery || document.write("<script src='assets/js/libs/jquery-1.11.0.min.js'>\x3C/script>")</script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery.event.move.js"></script>
+    <script src="assets/js/responsive-slider.js"></script>
 
     <!-- this is where we put our custom functions -->
     <!-- don't forget to concatenate and minify if needed -->
