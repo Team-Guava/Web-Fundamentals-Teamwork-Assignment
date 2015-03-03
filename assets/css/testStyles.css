@@ -114,7 +114,7 @@
     padding: 5px;
 }
 
-#jokes {
+.jokes {
   font-style: italic;
   font-family: Comic Sans MS;
   color: #000;
