@@ -101,4 +101,13 @@
   -o-transition: padding-right 0.5s;
   transition: padding-right 0.5s;
 }
+
+.interviewer-nakov {
+  font-style: italic;
+}
+
+.nakov {
+  color: red;
+}
+
 /* END OF TEST*/
