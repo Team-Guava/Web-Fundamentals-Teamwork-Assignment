@@ -40,6 +40,13 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 	width: 100%;
 	height: 100%;
 }
+/*responsive img
+-------------------------------------------------------------------------------*/
+.responsive-image{
+    height: auto;
+    max-width: 100%;
+}
+
 
 
 /* Media queries
