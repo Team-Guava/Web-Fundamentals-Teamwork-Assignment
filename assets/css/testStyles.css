@@ -110,4 +110,7 @@
   color: red;
 }
 
+#comics img {
+    padding: 5px;
+}
 /* END OF TEST*/
