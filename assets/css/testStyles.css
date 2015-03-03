@@ -11,13 +11,13 @@
  /*CONTAINERS BACKGROUND AND SIDES BORDER*/
  .container {
 	background-color: #EEE;
-	border-left: solid 0.2rem #DDD;
-	border-right: solid 0.2rem #DDD;
+	border-left: solid 0.2rem #403F40;
+	border-right: solid 0.2rem #403F40;
  }
  
  /*MAIN CONTAINER SHADOW SIDES*/
  body > .container {
-	box-shadow: 0 0 2rem #000;
+	box-shadow: 0 0 2rem #353436;
  }
  
  /*DISABLED*/
@@ -112,5 +112,11 @@
 
 #comics img {
     padding: 5px;
+}
+
+#jokes {
+  font-style: italic;
+  font-family: Comic Sans MS;
+  color: #000;
 }
 /* END OF TEST*/
