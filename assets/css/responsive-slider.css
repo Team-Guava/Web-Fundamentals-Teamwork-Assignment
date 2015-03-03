@@ -45,6 +45,17 @@
 .responsive-slider .slides ul li .slide-body .caption.header h2 i {
   font-size: 35px;
 }
+/*  Carousel Slider JOkes  */
+#jokes-carousel .carousel-inner .item img {
+  max-width: 100%;
+}
+#jokes-carousel {
+  position: relative;
+  border: 10px ridge #B3B8BA;
+  width: 40%;
+  margin: 0 auto;
+}
+
 @media (min-width: 481px) and (max-width: 767px) {
   .responsive-slider .slides ul li .slide-body .caption.header h2 {
     font-size: 25px;
