@@ -11,8 +11,8 @@
  /*CONTAINERS BACKGROUND AND SIDES BORDER*/
  .container {
 	background-color: #EEE;
-	border-left: solid 0.2rem #403F40;
-	border-right: solid 0.2rem #403F40;
+	border-left: solid 0.2rem #AAA;
+	border-right: solid 0.2rem #AAA;
  }
  
  /*MAIN CONTAINER SHADOW SIDES*/
@@ -50,6 +50,19 @@
 	border-bottom-right-radius: 1rem;
 	color: #FFF!important;
  }
+ 
+ /*DROPDOWN TOGGLE*/
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .active > a {
+	background-image: none;
+}
+ 
+ .navbar-inverse .navbar-nav > .open > a,
+ .navbar-inverse .navbar-nav > .open > a:hover,
+ .navbar-inverse .navbar-nav > .open > a:focus  {
+	background-color: #AAA;
+ }
+ 
  
  /*SLIDER TWEAKS*/
  .slider-control  {
@@ -118,5 +131,10 @@
   font-style: italic;
   font-family: Comic Sans MS;
   color: #000;
+}
+
+/*CONTACTS IMAGES*/
+.img-center {
+	margin: 0 auto;
 }
 /* END OF TEST*/
