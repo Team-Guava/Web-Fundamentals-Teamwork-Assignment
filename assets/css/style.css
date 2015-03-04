@@ -49,6 +49,15 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     max-width: 100%;
 }
 
+#links-footer {
+	float: right;
+}
+
+footer #links-footer ul li {
+  list-style-type: none;
+  font-size: 1.1em;
+  padding: 4px;
+}
 
 
 /* Media queries
