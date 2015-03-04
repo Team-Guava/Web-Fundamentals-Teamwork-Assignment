@@ -98,12 +98,12 @@
 
 
 </head>
-
 <body>
+<div id="home"></div>
 <div class="container">
     <header>
         <!-- Fixed navbar -->
-        <nav class="navbar navbar-inverse navbar-fixed-top">
+        <nav class="navbar navbar-inverse navbar-fixed-top page-navigation">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -116,7 +116,7 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
+                        <li class="active"><a href="#home">Home</a></li>
                         <li><a href="#headlines">Headlines</a></li>
                         <li><a href="#softuni-news">SoftUni News</a></li>
                         <li><a href="#jokes">Jokes</a></li>
@@ -574,6 +574,18 @@
 <!-- this is where we put our custom functions -->
 <!-- don't forget to concatenate and minify if needed -->
 <script src="assets/js/functions.js"></script>
+
+<!---SCROLLING NAV-->
+<script src="assets/js/jquery.combinedScroll.js"></script>
+<script>
+jQuery(document).ready(function($) {
+ 
+  // Hook up the current state to the nav bar
+  $('.page-navigation').onePageNav();
+  
+});
+</script>
+<!---END OF SCROLLING NAV-->
 
 </body>
 </html>
