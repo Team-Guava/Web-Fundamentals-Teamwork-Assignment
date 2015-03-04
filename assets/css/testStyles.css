@@ -147,4 +147,8 @@
 iframe {
     border: none;
 }
+
+footer img, footer p {
+    display: inline-block;
+}
 /* END OF TEST*/
