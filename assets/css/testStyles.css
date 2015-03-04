@@ -143,4 +143,8 @@
 .img-center {
 	margin: 0 auto;
 }
+
+iframe {
+    border: none;
+}
 /* END OF TEST*/
