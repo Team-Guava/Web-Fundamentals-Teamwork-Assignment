@@ -133,8 +133,8 @@ color: green;
 }
 
 .interpol {
-color: blue;
-
+	color: blue;
+}
 #links {
     display: flex;
     flex-wrap: wrap;
