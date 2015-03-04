@@ -115,13 +115,25 @@
   transition: padding-right 0.5s;
 }
 
-.interviewer-nakov {
+    .interviewer {
   font-style: italic;
 }
 
-.nakov {
+.nakov, .bogomil {
   color: red;
 }
+
+.regex-king {
+color: red;
+font-weight: bold;
+}
+
+.interpol-employee {
+color: green;
+}
+
+.interpol {
+color: blue;
 
 #links {
     display: flex;
