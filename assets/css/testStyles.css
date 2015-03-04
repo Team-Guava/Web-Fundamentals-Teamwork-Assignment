@@ -123,6 +123,12 @@
   color: red;
 }
 
+#links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #comics img {
     padding: 5px;
 }
