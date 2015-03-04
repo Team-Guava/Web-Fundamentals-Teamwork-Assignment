@@ -7,7 +7,7 @@
 
 
 .thumb {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .thumbnail a>img, .thumbnail>img {
@@ -17,4 +17,8 @@
 
 .gallery-hr {
 	border: solid 2px grey;
+}
+
+.page-header {
+	text-align: center;
 }
