@@ -175,6 +175,13 @@ color: green;
 .img-center {
 	margin: 0 auto;
 }
+/*AVATARS ON HOVER*/
+.img-center:hover {
+	-webkit-animation: swing 1s ease;
+	animation: swing 1s ease;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+}
 
 /*ABOUT TEAM VALUES*/
 #aboutTeamValues {
@@ -182,7 +189,6 @@ color: green;
 	font-size: 1.8rem;
 	list-style-type: none;
 }
-
 
 	#aboutTeamValues > li {
 		margin-top: 1rem;
@@ -196,3 +202,77 @@ footer img, footer p {
     display: inline-block;
 }
 /* END OF TEST*/
+
+
+
+/*
+	ABOUT AVATARS
+	SWING ANIMATION
+*/
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateY(0.5rem);
+        transform: translateY(0.5rem);
+    }
+    30%
+    {
+        -webkit-transform: translateY(-0.5rem);
+       transform: translateY(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateY(0.3rem);
+        transform: translateY(0.3rem););
+    }
+    65%
+    {
+        -webkit-transform: translateY(-0.3rem););
+        transform: translateY(-0.3rem););
+    }
+    80%
+    {
+        -webkit-transform: translateY(0.2rem);
+        transform: translateY(0.2rem);
+    }
+    100%
+    {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateY(0.5rem);
+        transform: translateY(0.5rem);
+    }
+    30%
+    {
+        -webkit-transform: translateY(-0.5rem);
+        transform: translateY(-0.5rem);
+    }
+    50%
+    {
+        -webkit-transform: translateY(0.3rem);
+        transform: translateY(0.3rem);
+    }
+    65%
+    {
+        -webkit-transform: translateY(-0.3rem);
+        transform: translateY(-0.3rem);
+    }
+    80%
+    {
+        -webkit-transform: translateY(0.2rem);
+        transform: translateY(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+/*END*/
