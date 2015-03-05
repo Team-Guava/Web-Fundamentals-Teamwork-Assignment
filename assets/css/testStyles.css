@@ -157,10 +157,8 @@ color: green;
 }
 /*ABOUT*/
 #aboutus {
-	background-color: red;
-	text-align: center;
+     text-align: center;
 }
-
 	#aboutus img  {
 		text-align: center;
 		margin: 0 auto;
