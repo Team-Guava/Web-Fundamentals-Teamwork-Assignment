@@ -151,9 +151,21 @@ color: green;
   color: #000;
 }
 
-/*CONTACTS IMAGES*/
+/*ABOUT AVATARS*/
 .img-center {
 	margin: 0 auto;
+}
+
+/*ABOUT TEAM VALUES*/
+#aboutTeamValues {
+	margin-top: 1rem;
+	font-size: 1.8rem;
+	list-style-type: square;
+}
+
+
+#aboutTeamValues > li {
+	margin-top: 1rem;
 }
 
 iframe {
