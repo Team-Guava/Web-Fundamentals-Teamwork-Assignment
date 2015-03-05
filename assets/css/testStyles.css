@@ -135,6 +135,11 @@ color: green;
 .interpol {
 	color: blue;
 }
+
+.slider-headings {
+	color: red;
+}
+
 #links {
     display: flex;
     flex-wrap: wrap;
