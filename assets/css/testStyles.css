@@ -150,6 +150,21 @@ color: green;
   font-family: Comic Sans MS;
   color: #000;
 }
+/*ABOUT*/
+#aboutus {
+	background-color: red;
+	text-align: center;
+}
+
+	#aboutus img  {
+		text-align: center;
+		margin: 0 auto;
+	}
+	
+	#aboutus p:nth-of-type(2) {
+		color: #222;
+		font-size: 3rem;
+	}
 
 /*ABOUT AVATARS*/
 .img-center {
@@ -160,13 +175,13 @@ color: green;
 #aboutTeamValues {
 	margin-top: 1rem;
 	font-size: 1.8rem;
-	list-style-type: square;
+	list-style-type: none;
 }
 
 
-#aboutTeamValues > li {
-	margin-top: 1rem;
-}
+	#aboutTeamValues > li {
+		margin-top: 1rem;
+	}
 
 iframe {
     border: none;
